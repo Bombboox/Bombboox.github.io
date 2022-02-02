@@ -1,4 +1,10 @@
 <!DOCTYPE html>
 <html>
-  hello
+  <head>
+  </head>
+  <body>
+    <script type="text/javascript">
+      alert("HI YES WORKING")
+    </script>
+  </body>
 </html>
