@@ -5,8 +5,11 @@
   <body>
     <canvas id="ab" width="700" height="700"></canvas>
     <script type="text/javascript">
-      alert("HI YES WORKING")
+      const canv = document.getElementById('ab');
+      const c = canv.getContext('2d');
       
+      c.fillStyle = "cyan";
+      c.fillRect(300, 300, 100, 100);
     </script>
   </body>
 </html>
